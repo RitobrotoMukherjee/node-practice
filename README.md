@@ -1,42 +1,35 @@
-![](https://img.shields.io/badge/Ritobroto-Mukherjee-blueviolet?labelColor=yellow)
+![](https://img.shields.io/badge/Ritobroto-Mukherjee-yellow?labelColor=blue)
 
-# Simple Node JS site
+# Hello Rails
 
-> Created Simple node js site from json
-
+> It's a simply `Ruby` application to to learn `Ruby On Rails` framework.
 
 ## Built With
 
-- Node JS
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+![](https://img.shields.io/badge/Ruby-red)&nbsp;![](https://img.shields.io/badge/Github-yellow)&nbsp;![](https://img.shields.io/badge/Rails-red)
 
 
-## Getting Started
+## To get this project up and running, you should do the following;
+- If you wish to run the project locally, please do the following:
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Clone the repository to your local machine.
+    - **`https://github.com/RitobrotoMukherjee/hello-rails.git`**
+    - **`cd hello-rails`**
 
+## Prerequisite
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Node
-
-### Nodemon
-
+> - Ruby needs to be installed in system. For window `WSL 2` will also work.
+> - Rails is required as the framework.
+> - `Node JS` and `Yarn` required as dependancies.
 
 ## Authors
 
-👤 **Author1**
+👤 **Ritobroto Mukherjee**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+- Portfolio: [@Rito](https://ritobroto-mukherjee.blogspot.com/)
+- GitHub: [@RitobrotoMukherjee](https://github.com/RitobrotoMukherjee)
+- Twitter: [@RitobrotoM3](https://twitter.com/RitobrotoM3)
+- LinkedIn: [Ritobroto Mukherjee](https://www.linkedin.com/in/ritobroto-mukherjee-519148ba/)
 
 ## 🤝 Contributing
 
@@ -50,9 +43,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## 📝 License
 
