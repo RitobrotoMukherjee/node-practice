@@ -4,5 +4,8 @@ const path = require('path');
 const rootPath = path.resolve(__dirname, '../');
 const app = express();
 const publicPath = path.join(rootPath, 'public');
+const staticData = path.join(publicPath, 'data');
 
-module.exports = { express, app, rootPath, publicPath };
+app.set('view engine', 'ejs');
+
+module.exports = { express, app, rootPath, publicPath, staticData };

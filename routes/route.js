@@ -1,4 +1,4 @@
-const { express, app, publicPath } = require('../config/config');
+const { express, app, publicPath, staticData } = require('../config/config');
 
 /* Access static files using end extension. Here /public/static.html */
 app.use(express.static(publicPath));
@@ -14,6 +14,12 @@ app.get('/hello-world', (req, resp) => {
 
     if(name) resp.send(`<h1>Hello, ${name}</h1>`);
     else resp.send(`<h1>Hello, world!</h1>`)
+});
+
+/* Using EJS */
+app.get('/profile', (_, resp) => {
+    data = require(`${staticData}/user.json`);
+    resp.render('profile', { data } );
 });
 
 module.exports = app;
