@@ -15,8 +15,9 @@ body {
 }
 
 h1 {
+    flex: 0 1 auto;
+    margin: 3rem auto;
     font-size: 9rem;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(114, 4, 4, .4);
-    margin: 3rem;
 }
