@@ -1,5 +1,3 @@
 const http = require("http");
 
-http.createServer((req, resp) => {
-    
-})
+module.exports = http.createServer();
