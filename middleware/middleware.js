@@ -1,11 +1,11 @@
 const { publicPath } = require('../config');
 
 const filterReq = (req, resp, next) => {
-    const checkAge = req.query?.age;
-    if(checkAge && checkAge > 12) {
+    const age = req.query?.age;
+    if(age && age > 12) {
         next();
-    } else if(checkAge && checkAge <= 12) {
-        
+    } else if(age && age <= 12) {
+        resp.render('error', { age });
     }
     else {
         resp.setHeader('Content-Type', 'text/html');

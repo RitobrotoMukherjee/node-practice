@@ -103,7 +103,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint */js",
+    "lint": "eslint \"**/*.js\" --fix --ignore-pattern node_modules/",
     "serve": "nodemon index.js"
   },
   "repository": {
