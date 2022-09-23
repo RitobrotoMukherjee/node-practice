@@ -11,10 +11,12 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size: 15rem;
+    font-size: 3rem;
 }
 
 h1 {
-    font-size: 18rem;
+    font-size: 9rem;
     font-family: 'Times New Roman', Times, serif;
+    color: rgb(114, 4, 4, .4);
+    margin: 3rem;
 }
