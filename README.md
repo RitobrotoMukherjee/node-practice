@@ -23,6 +23,9 @@
 - **`npm i`**
 - **`npm run serve`**
 
+## To run linters
+- `npm run eslint`
+
 
 To get a local copy up and running follow these simple example steps.
 
