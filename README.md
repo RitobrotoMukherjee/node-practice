@@ -10,9 +10,6 @@
 - Node JS
 - Express JS
 - EJS Template Engine
-- React JS
-- Mongo DB
-- MySQL
 
 ## Live Demo (if available)
 
