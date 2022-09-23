@@ -10,6 +10,7 @@ const filterReq = (req, resp, next) => {
     else {
         resp.setHeader('Content-Type', 'text/html');
         resp.sendFile(`${publicPath}/no-param.html`);
+        return;
     }
 }
 

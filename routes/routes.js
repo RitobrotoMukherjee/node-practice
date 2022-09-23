@@ -1,4 +1,4 @@
-const { app, router } = require('../config');
+const { app, publicPath, router } = require('../config');
 const middleware = require('../middleware/middleware');
 
 
@@ -7,12 +7,11 @@ const middleware = require('../middleware/middleware');
  *
  * app.use(middleware);
 */
-
-router.use(middleware);
-
 app.get('/', (_, resp) => {
     resp.render('home');
 });
+
+router.use(middleware);
 
 router.get('/user', (req, resp) => {
     const { age } = req.query;
@@ -25,5 +24,10 @@ router.get('/profile', (req, resp) => {
 });
 
 app.use('/', router);
+
+
+// app.get('*', (_, resp) => {
+//     resp.sendFile(`${publicPath}/404.html`);
+// });
 
 module.exports = app;
