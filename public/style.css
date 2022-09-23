@@ -1,0 +1,17 @@
+main {
+    min-height: 100vh;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(117, 245, 245);
+    color: rgb(9, 9, 113);
+    border-radius: 3rem 3rem 0rem 0rem;
+}
+
+.footer-details {
+    flex: 1 0 auto;
+    padding: 3rem;
+    text-align: center;
+}
