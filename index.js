@@ -1,6 +1,7 @@
-const app = require('./routes/routes');
+const mongoD = require('./mongodb');
 
-console.log("Satrting App");
-app.listen(1285, () => {
-    console.log("URL: http://localhost:1285");
-});
+(async () => {
+    const dbConnection = await mongoD();
+    const data = await dbConnection.find().toArray();
+    console.log(data);
+})()
