@@ -7,11 +7,11 @@ const mongoD = require('./mongodb');
 // })
 
 // Read without params
-// (async () => {
-//     const dbConnection = await mongoD();
-//     const data = await dbConnection.find().toArray();
-//     console.log(data);
-// })();
+(async () => {
+    const dbConnection = await mongoD();
+    const data = await dbConnection.find().toArray();
+    console.log(data);
+})();
 
 // Read with params
 // (async () => {
@@ -22,16 +22,16 @@ const mongoD = require('./mongodb');
 // })();
 
 // Read with matcher
-(async () => {
-    const dbConnection = await mongoD();
-    const data = await dbConnection.find(
-        {
-            $and: [ 
-                { price: { $lte: 30000 } },
-                { type: /mobile$/i }
-            ]
-        }
-    ).toArray();
-    console.log(data);
-})();
+// (async () => {
+//     const dbConnection = await mongoD();
+//     const data = await dbConnection.find(
+//         {
+//             $and: [ 
+//                 { price: { $lte: 30000 } },
+//                 { type: /mobile$/i }
+//             ]
+//         }
+//     ).toArray();
+//     console.log(data);
+// })();
 
